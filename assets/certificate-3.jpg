@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%" fill="none">
+  <rect width="600" height="380" fill="#E8E4DA" stroke="#17221D" stroke-width="1.5" />
+  <rect x="15" y="15" width="570" height="350" fill="none" stroke="#B56A4A" stroke-width="1" stroke-dasharray="4 4" />
+  <circle cx="300" cy="160" r="45" fill="#17221D" opacity="0.06" />
+  <text x="300" y="167" text-anchor="middle" fill="#B56A4A" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="700">CERTIFICATE 03</text>
+  <text x="300" y="230" text-anchor="middle" fill="#7C897D" font-family="'JetBrains Mono', monospace" font-size="12">CREDENTIAL FRAME</text>
+</svg>
