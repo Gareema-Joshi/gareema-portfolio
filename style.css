@@ -1163,7 +1163,20 @@ button, input, textarea { font: inherit; }
     line-height: 1.5;
   }
 }
+@media screen and (max-width: 768px) {
+    .milestones-grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+        width: 100% !important;
+    }
 
+    .milestone-card {
+        width: 100% !important;
+        box-sizing: border-box !important;
+        padding: 1.5rem 1.25rem !important;
+    }
+}
 /* --------------------------------------------------------------------------
    12. Section 06: Contact
    -------------------------------------------------------------------------- */
