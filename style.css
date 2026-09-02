@@ -561,6 +561,17 @@ button, input, textarea { font: inherit; }
 /* --------------------------------------------------------------------------
    8. Section 02: Technical Skills
    -------------------------------------------------------------------------- */
+
+   .tech-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tech-pill i {
+  font-size: 20px;
+  line-height: 1;
+}
 .skills-editorial-wrapper {
   display: flex;
   flex-direction: column;
