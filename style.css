@@ -1137,6 +1137,33 @@ button, input, textarea { font: inherit; }
   font-weight: 500;
 }
 
+@media (max-width: 768px) {
+  .milestones-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .milestone-card {
+    padding: 1.5rem 1.25rem;
+    gap: 0.75rem;
+    border: 1px solid var(--border-rule);
+    border-radius: 8px;
+  }
+
+  .milestone-badge-val {
+    font-size: 2.2rem;
+  }
+
+  .milestone-title {
+    font-size: 1rem;
+  }
+
+  .milestone-desc {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+}
+
 /* --------------------------------------------------------------------------
    12. Section 06: Contact
    -------------------------------------------------------------------------- */
