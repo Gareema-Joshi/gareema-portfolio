@@ -1363,7 +1363,9 @@ button, input, textarea { font: inherit; }
 
   /* Header & Navigation */
   .nav-toggle { display: flex; }
-  .nav-actions .btn-cv-subtle { display: none; }
+  .nav-actions .btn-cv-subtle {
+  display: inline-block;
+}
 
   .nav-menu {
     position: fixed;
